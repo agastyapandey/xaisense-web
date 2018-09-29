@@ -18,10 +18,10 @@ app.get('/portfolio', function (req, res) {
   res.sendFile(path.join(__dirname + '/portfolio.html'));
 })
 app.get('/pricing', function (req, res) {
-  res.sendFile(path.join(__dirname + 'pricing.html'));
+  res.sendFile(path.join(__dirname + '/pricing.html'));
 })
 app.get('/contact', function (req, res) {
-  res.sendFile(path.join(__dirname + 'contact.html'));
+  res.sendFile(path.join(__dirname + '/contact.html'));
 })
 
 app.listen(process.env.PORT || 3000, function () {
